@@ -63,7 +63,7 @@ const usersList = [
     Author: "Kimberly Smith",
     description: "commented your picture",
     picture: "image-chess.webp",
-    createdAt: getElapsedTime("2023-02-9T02:30:00"),
+    createdAt: getElapsedTime("2023-02-09T02:30:00"),
     profileImgSrc: "avatar-kimberly-smith.webp",
     checked: "false",
   },
