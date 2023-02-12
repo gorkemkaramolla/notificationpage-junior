@@ -1,4 +1,4 @@
-# Front End Mentor Template Challenge
+#### Front End Mentor Template Challenge
 
 Check out the live website on [Netlify](https://snazzy-quokka-e7acb8.netlify.app/).
 
