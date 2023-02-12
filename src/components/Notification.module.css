@@ -80,6 +80,9 @@
   width: 40px;
   height: 40px;
 }
+.InnerPicture:hover {
+  cursor: pointer;
+}
 .InnerHolder {
   float: right;
   display: flex;

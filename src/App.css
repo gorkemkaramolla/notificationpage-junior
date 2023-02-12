@@ -20,6 +20,7 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .Header {
@@ -76,5 +77,5 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: var(--grayishBlue2);
+  background-color: #f9fafe;
 }
