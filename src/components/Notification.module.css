@@ -1,0 +1,89 @@
+.Container {
+  display: flex;
+  background-color: white;
+
+  padding: 10px;
+  width: 650px;
+
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Container.active {
+  background-color: var(--veryLight);
+}
+
+@media (max-width: 600px) {
+  .Container {
+    width: 375px;
+  }
+}
+.InnerContainer {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.Message {
+  background-color: var(--white);
+  padding: 1em;
+  border-radius: 0.3em;
+}
+.Message:hover {
+  background-color: var(--grayishBlue1);
+  padding: 1em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+.Profile {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 1em;
+
+  height: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-spacing: 2px;
+}
+
+.details {
+  width: 100%;
+}
+.CreatedAt {
+  margin-bottom: 0.5em;
+}
+.Author {
+  display: inline;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  color: var(--darkBlue);
+}
+.Author:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+.Checked {
+  min-width: 0.5em;
+  display: inline-flex;
+  border-radius: 50%;
+  min-height: 0.5em;
+  background-color: var(--red);
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.InnerPicture {
+  width: 40px;
+  height: 40px;
+}
+.InnerHolder {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  align-items: flex-end;
+}

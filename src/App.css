@@ -1,0 +1,80 @@
+:root {
+  --blue: hsl(219, 85%, 26%);
+  --red: hsl(1, 90%, 64%);
+  --white: hsl(0, 0%, 100%);
+  --veryLight: hsl(210, 60%, 98%);
+  --grayishBlue1: hsl(211, 68%, 94%);
+  --grayishBlue2: hsl(205, 33%, 90%);
+  --grayishBlue: hsl(219, 14%, 63%);
+  --darkGrayishBlue: hsl(219, 12%, 42%);
+  --darkBlue: hsl(224, 21%, 14%);
+  color: var(--grayishBlue);
+  font-weight: 550;
+  font-family: "Jakarta-Bold, sans-serif";
+}
+
+.wrapper {
+  background-color: var(--white);
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.Header {
+  font-size: 20px;
+  color: var(--darkBlue);
+  align-self: flex-start;
+  font-weight: 1000;
+  padding-bottom: 2em;
+}
+* {
+  font-family: "Jakarta", sans-serif;
+}
+@font-face {
+  font-family: "Jakarta";
+  src: url("../public/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: url("../public/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jakarta-Medium";
+  src: url("../public/PlusJakartaSans-Medium.ttf") format("truetype");
+}
+a {
+  text-decoration: none;
+  color: var(--darkGrayishBlue);
+  font-weight: 1000;
+  font-size: 16px;
+}
+a:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+.notification-number {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0;
+  margin-left: 5px;
+  width: 35px;
+  align-self: baseline;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  background-color: var(--blue);
+  border-radius: 6px;
+  vertical-align: baseline;
+  color: var(--white);
+}
+body {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: var(--grayishBlue2);
+}
