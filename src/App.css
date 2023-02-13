@@ -80,3 +80,14 @@ body {
   padding: 0;
   background-color: #f9fafe;
 }
+.attribution {
+  color: white;
+  display: flex;
+  justify-content: center;
+  color: inherit;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: crimson;
+}
